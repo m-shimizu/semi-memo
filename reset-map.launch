@@ -1,0 +1,3 @@
+<launch>
+  <node name="PUB_RESET" pkg="rostopic" type="rostopic" args="pub syscommand std_msgs/String reset"/>
+</launch>
